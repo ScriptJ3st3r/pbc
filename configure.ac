@@ -76,7 +76,7 @@ AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
 
-AC_PROG_LEX(yywrap)
+# AC_PROG_LEX(yywrap)
 if test "x$LEX" != xflex; then
   echo "************************"
   echo "flex not found"
